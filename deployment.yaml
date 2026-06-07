@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: eabdus/register-app-pipeline:1.0.0-9
+          image: eabdus/register-app-project-1:latest
           resources:
             limits:
               memory: "256Mi"
